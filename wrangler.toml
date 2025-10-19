@@ -1,7 +1,6 @@
 name = "base"
 main = "index.js"
 compatibility_date = "2025-10-19"
-
 [[durable_objects.bindings]]
 name = "HUB_OBJECT"
 class_name = "HUB_OBJECT"
