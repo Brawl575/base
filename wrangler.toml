@@ -1,3 +1,10 @@
 name = "base"
 main = "index.js"
 compatibility_date = "2025-09-30"
+
+[observability]
+[observability.logs]
+enabled = false
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
